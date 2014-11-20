@@ -1,0 +1,21 @@
+{
+  "name": "vt-dnd-list",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shycherry/vt-dnd-list",
+  "authors": [
+    "shycherry <vinpowful@free.fr>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "latest",
+    "core-drag-drop": "Polymer/core-drag-drop#~0.5.1",
+    "paper-shadow": "Polymer/paper-shadow#~0.5.1"
+  }
+}

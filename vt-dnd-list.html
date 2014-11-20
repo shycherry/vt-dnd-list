@@ -1,0 +1,18 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-shadow/paper-shadow.html">
+<link rel="import" href="../core-drag-drop/core-drag-drop.html">
+
+<polymer-element name="vt-dnd-list">
+  <template>
+    <link rel="stylesheet" href="vt-dnd-list.css"/>
+    <!-- <core-drag-drop></core-drag-drop> -->
+    <paper-shadow z="1">
+      <b draggable="true">Yaw list !</b>
+      <content id="content"></content>
+    </paper-shadow>
+  </template>
+  <script>
+    Polymer('vt-dnd-list',{
+    });
+  </script>
+</polymer-element>
